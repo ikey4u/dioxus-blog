@@ -1,0 +1,9 @@
+[package]
+name = "dioxus-blog"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+dioxus = { version = "0.5.1", features = ["web"] }
+dioxus-web = "0.5.1"
+manganis = "0.2.2"
