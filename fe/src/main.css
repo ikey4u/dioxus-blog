@@ -4,4 +4,22 @@
 
 html, body, #main {
   height: 100%;
+  overflow: scroll;
+}
+
+#main {
+  border: 1px dashed red;
+  margin: auto;
+}
+
+@media (max-width: 640px)  {
+  #main {
+    width: 320px;
+  }
+}
+
+@media (min-width: 640px)  {
+  #main {
+    width: 640px;
+  }
 }
